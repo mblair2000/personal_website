@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Project Alpha",
+    "description": "A full-stack web application that helps teams manage projects with real-time collaboration features, built with React and Node.js.",
+    "tags": ["React", "Node.js", "PostgreSQL", "WebSockets"],
+    "demo": "https://projectalpha.com",
+    "repo": "https://github.com/yourusername/project-alpha",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Design System",
+    "description": "A comprehensive component library and design system used across multiple internal products, with thorough documentation and accessibility support.",
+    "tags": ["React", "Storybook", "Tailwind CSS", "TypeScript"],
+    "repo": "https://github.com/yourusername/design-system",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "CLI Tool",
+    "description": "A developer productivity CLI that automates common repetitive tasks, supports plugins, and integrates with popular dev tools.",
+    "tags": ["Node.js", "TypeScript", "Commander.js"],
+    "repo": "https://github.com/yourusername/cli-tool"
+  },
+  {
+    "id": 4,
+    "title": "Data Dashboard",
+    "description": "An analytics dashboard that visualizes complex datasets using interactive charts and real-time data streaming.",
+    "tags": ["React", "D3.js", "AWS Lambda", "DynamoDB"],
+    "demo": "https://dashboard-demo.com",
+    "featured": false
+  }
+]

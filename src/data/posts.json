@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "slug": "getting-started-with-react-vite",
+    "title": "Getting Started with React + Vite in 2024",
+    "excerpt": "Vite has quickly become the go-to build tool for modern React apps. Here's everything you need to know to get up and running fast.",
+    "date": "2024-03-15",
+    "readTime": 6,
+    "tags": ["React", "Vite", "JavaScript", "Python"],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "slug": "deploying-to-aws-s3",
+    "title": "Deploying a Static React Site to AWS S3 + CloudFront",
+    "excerpt": "A step-by-step walkthrough of deploying your Vite-built React app to Amazon S3 with CloudFront as a CDN and Route 53 for custom domains.",
+    "date": "2024-02-28",
+    "readTime": 10,
+    "tags": ["AWS", "S3", "DevOps", "React"],
+    "featured": true
+  },
+  {
+    "id": 3,
+    "slug": "tailwind-css-tips",
+    "title": "10 Tailwind CSS Tricks I Wish I Knew Earlier",
+    "excerpt": "After building dozens of UIs with Tailwind, I've collected the patterns and utilities that make the biggest difference in day-to-day development.",
+    "date": "2024-01-10",
+    "readTime": 8,
+    "tags": ["Tailwind CSS", "CSS", "Frontend"]
+  }
+]
