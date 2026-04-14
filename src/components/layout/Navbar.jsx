@@ -67,7 +67,7 @@ export default function Navbar() {
         {/* CTA */}
         <div className="hidden md:block">
           <Link to="/contact" className="btn-primary text-sm py-2">
-            Hire Me
+            Inquiries
           </Link>
         </div>
 

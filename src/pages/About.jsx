@@ -55,7 +55,7 @@ export default function About() {
             </h1>
             <div className="space-y-4 text-surface-600 leading-relaxed">
               <p>
-                I'm a Software Data Engineer from Arlington, VA working the space and defense domain at KBR,
+                I'm a Software Data Engineer from Arlington, VA working in the space and defense domain at KBR,
                 where I focus on building software and data-driven solutions for complex, mission-critical problems.
               </p>
               <p>
