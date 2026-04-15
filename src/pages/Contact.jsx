@@ -3,8 +3,7 @@ import toast from 'react-hot-toast'
 import SEO from '@/components/utility/SEO'
 import { useForm } from '@/hooks/useForm'
 
-// ← Replace with your Formspree endpoint: https://formspree.io/
-const FORMSPREE_URL = 'https://formspree.io/f/YOUR_FORM_ID'
+const FORMSPREE_URL = 'https://formspree.io/f/xdaykjqn'
 
 function validate(values) {
   const errors = {}
