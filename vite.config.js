@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [
     react(),
     sitemap({
-      hostname: 'https://blair0.com', // ← replace with your domain
+      hostname: 'https://blair0.com',
       dynamicRoutes: routes,
     }),
   ],
