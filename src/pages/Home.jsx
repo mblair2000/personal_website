@@ -60,7 +60,7 @@ function HeroSection() {
 
           {/* Tech stack badges */}
           <div className="mt-12 flex flex-wrap gap-2">
-            {['Python', 'Java', 'Linux', 'React', 'TypeScript', 'Node.js', 'AWS', 'Tailwind CSS', 'PostgreSQL', 'HTML5', 'Git'].map(tech => (
+            {['Python', 'Java', 'Linux', 'AWS', 'Docker', 'Git', 'PostgreSQL', 'React', 'Tailwind CSS', 'Vite', 'MATLAB', 'REST', 'Javascript'].map(tech => (
               <span key={tech} className="tag">{tech}</span>
             ))}
           </div>
@@ -74,7 +74,7 @@ function StatsSection() {
   const stats = [
     { value: '7+',  label: 'Years Programming' },
     { value: '2+',  label: 'Years Management' },
-    { value: '10+', label: 'Projects Delivered' },
+    { value: '30+', label: 'Technologies Used' },
     { value: '∞',   label: 'Coffees Consumed' },
   ]
 

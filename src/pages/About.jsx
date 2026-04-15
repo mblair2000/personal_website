@@ -2,10 +2,11 @@ import SEO from '@/components/utility/SEO'
 import { Link } from 'react-router-dom'
 
 const skills = [
-  { category: 'Frontend',  items: ['React', 'TypeScript', 'Tailwind CSS', 'Javascript', 'HTML5'] },
-  { category: 'Backend',   items: ['Python', 'Java', 'C', 'MATLAB', 'Node.js', 'PostgreSQL', 'REST / GraphQL'] },
-  { category: 'DevOps',    items: ['AWS (S3, Lambda, EC2, DynamoDB)', 'Docker', 'GitHub Actions', 'Jenkins'] },
-  { category: 'Tools',     items: ['Git', 'Linux', 'Vite', 'VS Code', 'Pycharm', 'Eclipse', 'IntelliJ', 'Microsoft Office'] },
+  { category: 'Frontend',   items: ['React', 'TypeScript', 'Tailwind CSS', 'Javascript', 'HTML5'] },
+  { category: 'Backend',    items: ['Python', 'Java', 'C', 'MATLAB', 'Node.js', 'PostgreSQL', 'REST / GraphQL'] },
+  { category: 'DevOps',     items: ['AWS (S3, Lambda, EC2, DynamoDB)', 'Docker', 'GitHub Actions', 'Jenkins'] },
+  { category: 'Tools',      items: ['Git', 'Linux', 'Vite', 'VS Code', 'Pycharm', 'Eclipse', 'IntelliJ', 'Microsoft Office'] },
+  { category: 'Methods',    items: ['Gaussian Process Regression', 'Bayesian Statistics']},
 ]
 
 const timeline = [
@@ -71,8 +72,8 @@ export default function About() {
               </p>
               <p>
                 I hold a Bachelor's degree in Computer Science with a minor in Mathematics from Virginia Tech, 
-                along with a SAFe 6 Agilist certification. My technical experience spans Python, Java, C, Linux, and data 
-                science workflows, with a strong focus on building practical, production-ready systems.
+                along with a SAFe 6 Agilist certification. My technical experience spans full stack development, 
+                algorithm development, and data science workflows, with a strong focus on building practical, production-ready systems.
               </p>
               <p>
                 At my core, I enjoy turning complex problems into simple, working solutions—especially when they sit at 
@@ -111,7 +112,7 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <p className="text-xs font-mono text-brand-500 uppercase tracking-widest mb-2">Toolkit</p>
           <h2 className="section-heading mb-10">Skills & Technologies</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6">
             {skills.map(({ category, items }) => (
               <div key={category} className="card p-5">
                 <h3 className="font-mono text-xs font-semibold text-brand-600 uppercase tracking-wider mb-3">

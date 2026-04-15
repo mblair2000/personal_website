@@ -10,10 +10,9 @@
   },
   {
     "id": 2,
-    "title": "Data Dashboard",
-    "description": "An analytics dashboard that visualizes complex datasets using interactive charts and real-time data streaming.",
-    "tags": ["React", "D3.js", "AWS Lambda", "DynamoDB"],
-    "demo": "https://dashboard-demo.com",
+    "title": "Coming Soon",
+    "description": "First personal machine learning project.",
+    "tags": ["Python", "CNN", "Dash"],
     "featured": false
   }
 ]

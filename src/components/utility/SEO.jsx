@@ -7,7 +7,7 @@ export default function SEO({
   url,
   type = 'website',
 }) {
-  const fullTitle = title ? `${title} | YourName` : 'YourName — Developer & Designer'
+  const fullTitle = title ? `${title} | Michael Blair` : 'Michael Blair — Developer & Designer'
 
   return (
     <Helmet>
