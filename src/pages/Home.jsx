@@ -19,7 +19,7 @@ function HeroSection() {
 
         {/* Background Image Layer*/}
         <img
-          src="/src/pictures/satellite_image.jpg"
+          src="/satellite_image.jpg"
           alt=""
           className="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none"
         />

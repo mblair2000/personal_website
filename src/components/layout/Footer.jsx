@@ -41,7 +41,7 @@ function TwitterIcon() {
 function KBRIcon() {
   return (
     <img
-      src="/src/pictures/kbr-vector-logo-2021.svg"
+      src="/kbr-vector-logo-2021.svg"
       alt="KBR logo"
       className="w-5 h-5"
     />

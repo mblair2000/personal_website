@@ -97,7 +97,7 @@ export default function About() {
           <div className="flex justify-center md:justify-end">
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <div className="w-full h-full rounded-2xl bg-gradient-to-br from-brand-200 to-brand-400 flex items-center justify-center">
-                <img src="/src/pictures/profile.jpg" alt="MHB" classname="w-48 h-48 rounded-full object-cover" />
+                <img src="/profile.jpg" alt="MHB" classname="w-48 h-48 rounded-full object-cover" />
                 {/* <span className="font-display text-8xl font-bold text-white/60">MHB</span> */}
               </div>
               {/* Decorative ring */}
